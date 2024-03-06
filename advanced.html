@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="advanced_style.css">
+    <title>Advanced Google Search</title>
+</head>
+<body>
+    <div class="header">
+        <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" alt="Google Logo">
+        <div>Advanced Search</div>
+        <h6> <a href="index.html">Google Search</a></h6>
+    </div>
+    <form action="https://www.google.com/search" autocomplete="off">
+        <div class="container">
+            Find pages with...
+            <div>
+                <div class="title" >all these words:</div>
+                <input type="text" name="as_q">
+                <div class="help">Type the important words: <code>tri-colour rat terrier</code></div>
+            </div>
+    
+            <div>
+                <div class="title" >this exact word or phrase:</div>
+                <input type="text" name="as_epq">
+                <div class="help">Put exact words in quotes: <code>"rat terrier"</code></div>
+            </div>
+            
+            <div>
+                <div class="title" >any of these words:</div>
+                <input type="text" name="as_oq">
+                <div class="help">Type <code>OR</code> between all the words you want: <code>miniature OR standard</code></div>
+                
+            </div>
+            
+            <div>
+                <div class="title" >none of these words:</div>
+                <input type="text" name="as_eq">
+                <div class="help">Put a minus sign just before words that you don't want: <code>-rodent, -"Jack Russell"</code>
+                </div>
+            </div>
+        </div>
+        <input id="advanced_search" type="submit" value="Advanced Search">
+
+    </form>
+</body>
+</html>

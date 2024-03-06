@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    /* width: 100vh; */
+    height: 100vh;
+    background-color: #202124;
+}
+
+form{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);  
+    display: grid;
+    column-gap: 10px;
+    row-gap: 24px;            
+}
+
+h6{
+    /* position: absolute; */
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: lighter;
+    position: relative;
+    display: inline-block;
+    padding: 12px 12px;
+    float: right;
+
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.image{
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    position: relative;
+}
+span{
+    color: #4487F6;
+    font: 16px / 16px roboto-regular, arial, sans-serif;
+    position: absolute;
+    display: grid;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    margin-left: 57%;
+    margin-top: 55%;
+}
+
+#input_field{
+    color: white;
+    height: 46px;
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    border: 0.1px solid #bdc1c66b;
+    border-radius: 22px;
+    background-color: #202124;
+    padding-left: 18px;
+    padding-right: 18px;
+    line-height: 22px;
+    outline: none;
+}
+
+#input_field:hover{
+    background-color: #303134;
+    border: none;
+    
+}
+
+#input_field::selection{
+    background-color: #303134;
+    border: none;
+
+}
+
+#search_btn1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #e8eaed;
+    background-color: #303134;
+    border: 2px solid #303134;
+    margin-left: 35%;
+    margin-right: 35%;
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    height: 36px;
+    border-radius: 6px;
+    
+}
+
+
+#search_btn1:hover{
+    border: 0.1px solid #bdc1c66b;
+}
