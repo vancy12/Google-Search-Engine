@@ -4,7 +4,7 @@
 }
 
 .container{
-    /* width: 100vh; */
+
     height: 100vh;
     background-color: #202124;
 }
@@ -12,7 +12,7 @@
 form{
     top: 50%;
     left: 50%;
-    position: absolute;
+    position: fixed;
     transform: translate(-50%, -50%);  
     display: grid;
     column-gap: 10px;
@@ -20,7 +20,7 @@ form{
 }
 
 h6{
-    /* position: absolute; */
+
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
@@ -49,6 +49,8 @@ a:hover{
     grid-column-end: 4;
     position: relative;
 }
+
+
 span{
     color: #4487F6;
     font: 16px / 16px roboto-regular, arial, sans-serif;
@@ -73,6 +75,14 @@ span{
     padding-right: 18px;
     line-height: 22px;
     outline: none;
+    margin: auto;
+    width: 80vw;
+}
+
+@media screen and (min-width: 520px){
+    #input_field{
+        max-width: 455px;
+    }
 }
 
 #input_field:hover{
